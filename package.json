@@ -1,0 +1,26 @@
+{
+  "name": "Alt Balaji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "node-datetime": "^2.1.2",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
