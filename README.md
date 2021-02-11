@@ -11,6 +11,9 @@
 2. Moongose:- Mongoose is a JavaScript framework that is commonly used in a Node.js application with a MongoDB database.
 3. Mocha : Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
 4. Chai : Chai is a BDD / TDD assertion library for [node](http://nodejs.org) and the browser that can be delightfully paired with any javascript testing framework.
+5. cors : CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+6. swagger-jsdoc : This library reads your JSDoc-annotated source code and generates an OpenAPI (Swagger) specification.
+7. swagger-ui-express : This module allows you to serve auto-generated swagger-ui generated API docs from express, based on a swagger.json file. The result is living documentation for your API hosted from your API server via a route.
 
 
 ### Project Setup Guide :
