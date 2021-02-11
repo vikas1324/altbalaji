@@ -196,6 +196,7 @@ router.use(bodyParser.json());
  */
 router.post('/user',verifyToken,(req,res)=>{
     let ts = Date.now();
+    
     if(req.body.user_id=='' || req.body.user_id==null){
       res.status(401).json({"status":false,"message":"id is not passed"})
       return false
@@ -272,6 +273,22 @@ router.get('/users/:id',verifyToken,(req,res)=>{
 router.put('/users/:id',verifyToken,(req,res)=>{
     if(req.params.id=='' || req.params.id==null){
       res.status(401).json({"status":false,"message":"id is not passed"})
+      return false
+    }
+    if(req.body.user_name=='' || req.body.user_name==null){
+      res.status(401).json({"status":false,"message":"User name is not passed"})
+      return false
+    }
+    if(req.body.user_address=='' || req.body.user_address==null){
+      res.status(401).json({"status":false,"message":"User address is not passed"})
+      return false
+    }
+    if(req.body.user_dob=='' || req.body.user_dob==null){
+      res.status(401).json({"status":false,"message":"Date of birt is not passed"})
+      return false
+    }
+    if(req.body.user_state=='' || req.body.user_state==null){
+      res.status(401).json({"status":false,"message":"State is not passed"})
       return false
     }
     const user ={ 

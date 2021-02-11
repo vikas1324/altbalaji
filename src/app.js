@@ -62,3 +62,4 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.listen({ port }, () => {
   console.log(`🚀Server ready at http://localhost:${ port }`);
 });
+module.exports=app;
