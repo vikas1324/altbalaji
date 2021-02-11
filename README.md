@@ -26,7 +26,7 @@
 ```
    or for swagger
    ```
-      /src>node app.js
+      ../src>node app.js
    ```
 5. Application run on the PORT 3000. The url ``` http://<your-domain>:3000/api-docs ``` open in the browser
 
