@@ -3,8 +3,7 @@
   
 ### Software Requirement :
 1. Nodejs(v12.18.4)
-2. Mongodb
-3. MongoCompass(if only to see Databas) 
+2. Mongodb 
 
 ### Packages Used:
 1. Express:- Express.js is a web application framework for Node.js. It provides various features that make web application development fast and easy which otherwise takes more time using only Node.js.
