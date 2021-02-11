@@ -22,6 +22,11 @@
 ```
 4. Run project on node server using following command
 ```
-    npm start
+    npm start 
 ```
-5. Application run on the PORT 3000. The url ``` http://<your-domain>:3000 ``` open in the browser
+   or for swagger
+   ```
+      /src>node app.js
+   ```
+5. Application run on the PORT 3000. The url ``` http://<your-domain>:3000/api-docs ``` open in the browser
+
