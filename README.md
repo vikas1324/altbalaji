@@ -33,7 +33,14 @@
    ```
 5. Application run on the PORT 3000. The url ``` http://<your-domain>:3000/api-docs ``` open in the browser
 6. When api docs is open first you should login. 
-```user name:"user" ```
-```password : "123456" ```
-when login is done then you got token in in output this tocken copy and paste it into authorize. then you get the permission to access other api's.   
+```
+user name:"user" 
+
+```
+
+```
+password : "123456" 
+
+```
+7.When login is done then you got token in in output this tocken copy and paste it into authorize. then you get the permission to access other api's.   
 
