@@ -38,5 +38,5 @@ user name:"user"
 password : "123456" 
 
 ```
-7.When login is done then you got token in in output this tocken copy and paste it into authorize. then you get the permission to access other api's.   
+7.When login is done then you got token in output this token copy and paste it into authorize then you get the permission to access other api's.   
 
