@@ -35,10 +35,6 @@
 6. When api docs is open first you should login. 
 ```
 user name:"user" 
-
-```
-
-```
 password : "123456" 
 
 ```
