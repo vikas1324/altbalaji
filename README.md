@@ -1,4 +1,4 @@
-# Alt Balaji User CRUD
+# User CRUD
   Design a user crud application with swagger. 
   
 ### Software Requirement :
@@ -14,7 +14,7 @@
 
 
 ### Project Setup Guide :
-1. Download the project alt balaji user crud.
+1. Download the project user crud.
 2. Open the project in command prompt or vscode
 3. Install packages those are used in project. Run the following command
 ```
